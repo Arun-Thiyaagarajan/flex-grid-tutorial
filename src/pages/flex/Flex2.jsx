@@ -34,7 +34,7 @@ const Flex2 = () => {
 
   return (
     <main>
-        <Header />
+        <Header pageTitle={'justify-content'} />
       
       <div className="container-1" style={containerStyle}>
         {boxes}

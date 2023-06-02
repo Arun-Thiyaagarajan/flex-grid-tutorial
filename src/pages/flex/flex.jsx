@@ -31,7 +31,7 @@ const Flex = () => {
 
   return (
     <main>
-      <Header />
+      <Header pageTitle={'Flex Basics'} />
       <div className="container-1" style={containerStyle}>
         {boxes}
       </div>
