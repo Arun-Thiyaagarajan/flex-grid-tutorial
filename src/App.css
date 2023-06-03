@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 html {
@@ -34,6 +35,11 @@ main {
   margin-top: 1rem;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .mb {
   margin-bottom: 1rem;
 }
@@ -55,6 +61,7 @@ main {
 
 .links {
   display: flex;
+  align-items: center;
   column-gap: 1.5rem;
 }
 
