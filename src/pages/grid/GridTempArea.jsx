@@ -1,9 +1,10 @@
 import './Grid.css';
+import Header2 from '../../components/Header2'
 
 const GridTempArea = () => {
   return (
     <>
-        {/* <Header2 pageTitle={'grid-template-area'} /> */}
+        <Header2 pageTitle={'grid-template-area'} />
         <div className="container-3">
           <header>header</header>
           <section>content</section>
